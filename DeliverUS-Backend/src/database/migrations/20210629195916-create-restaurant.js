@@ -7,7 +7,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      // TODO: Include the rest of the fields of the Restaurants table
       name: {
         allowNull: false,
         type: Sequelize.STRING
