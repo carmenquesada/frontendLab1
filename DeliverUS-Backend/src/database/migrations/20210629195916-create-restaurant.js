@@ -32,7 +32,7 @@ module.exports = {
         type: Sequelize.DOUBLE
       },
       averageServiceMinutes: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.DOUBLE
       },
       email: {
